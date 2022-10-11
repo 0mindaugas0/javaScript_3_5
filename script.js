@@ -18,7 +18,7 @@ console.log("Trikampio plotas yra: " + plotas)
 
 
 function plotoSkaiciavimas (krastine1, krastine2, krastine3, pusperimetrioSkaiciavimas){
-    return Math.sqrt(pusperimetrioSkaiciavimas * (pusperimetrioSkaiciavimas - krastine1) * (pusperimetrioSkaiciavimas - krastine2) * (pusperimetrioSkaiciavimas * krastine3));
+    return Math.sqrt(pusperimetrioSkaiciavimas * (pusperimetrioSkaiciavimas - krastine1) * (pusperimetrioSkaiciavimas - krastine2) * (pusperimetrioSkaiciavimas - krastine3));
 }
 
 function pusperimetrioSkaiciavimas (krastine1, krastine2, krastine3){
